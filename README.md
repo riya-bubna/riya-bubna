@@ -1,5 +1,5 @@
-# sam17.github.io
-Personal Website of [Soumyadeep Mukherjee](http://soumyadeepmukherjee.com).
+# riya-bubna.github.io
+Personal Website of [Riya Bubna](http://riya-bubna.github.io).
 
 #Using Template
 
