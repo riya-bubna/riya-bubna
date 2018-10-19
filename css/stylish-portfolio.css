@@ -229,7 +229,7 @@ hr.small-b{
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url(../img/riya.jpg) no-repeat left;
+	background: url(../img/dp.jpg) no-repeat left;
     z-index: 2;
     background-position: left -30px top;
     background-size: 210px 210px;
@@ -238,6 +238,8 @@ hr.small-b{
     -moz-filter: contrast(130%);
     -o-filter: contrast(130%);
     -ms-filter: contrast(130%);
+    /*-webkit-transform: rotate(90deg);
+    transform: rotate(90deg);*/
 	bacground-size:cover;
 }
 
