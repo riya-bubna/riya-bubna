@@ -238,8 +238,6 @@ hr.small-b{
     -moz-filter: contrast(130%);
     -o-filter: contrast(130%);
     -ms-filter: contrast(130%);
-    /*-webkit-transform: rotate(90deg);
-    transform: rotate(90deg);*/
 	bacground-size:cover;
 }
 

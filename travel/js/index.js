@@ -12,6 +12,7 @@ $(function () {
         //'fr',  // France
         //'au',   // Australia
 		'id',  //Indonesia
+        'us', //America
     ]
 
     const visited_states_in_india = [

@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Portfolio Website of Riya Bubna, analyst at Goldman Sachs, currently learning how-not-to lose at chess. All her research and projects are listed here.">
+	<meta name="description" content="Portfolio Website of Riya Bubna, analyst at Goldman Sachs. All her research and projects are listed here.">
 	<meta name="author" content="Riya Bubna">
 	<link rel="icon" type="image/png" href="img/dp.jpg">
 	<title>Riya Bubna</title>
@@ -182,7 +182,7 @@
       </a>
       <div class="portfolio-caption">
         <h4>Scientific Paper Recommendation System</h4>
-        <p class="text-muted">January 16' - Present</p>
+        <p class="text-muted">January 16' - April 17'</p>
       </div>
       </div>    
       </article>
@@ -284,7 +284,7 @@
       </a>
       <div class="portfolio-caption">
         <h4>Garbage collector and separator</h4>
-        <p class="text-muted">August 15' to March 16'</p>
+        <p class="text-muted">August 15' - March 16'</p>
       </div>
       </div>    
       </article>
@@ -423,24 +423,24 @@
   				<p class="text-muted">March 12'</p>
   			  </div>
   			</div>			
-  		  </article>
+  		  </article>-->
 
-			  <article class="col-md-4 isotopeItem software">
-  			<div class=" portfolio-item">
-  			  <a href="#portfolioModal15" class="portfolio-link" data-toggle="modal">
-  				<div class="portfolio-hover">
-  				  <div class="portfolio-hover-content">
-  					<i class="fa fa-plus fa-3x"></i>
-  				  </div>
-  				</div>
-  				<img src="img/marauder.jpg" class="img-responsive" alt="Marauders Map Event Logo">
-  			  </a>
-  			  <div class="portfolio-caption">
-  				<h4>Marauders' Map</h4>
-  				<p class="text-muted">January 13'</p>
-  			  </div>
-  			</div>			
-  		  </article> -->
+			  <article class="col-md-4 isotopeItem hobby">
+        <div class=" portfolio-item">
+          <a href="#portfolioModal15" class="portfolio-link" data-toggle="modal">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+            <i class="fa fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/gosafe.png" class="img-responsive" alt="Seeker Event Robot">
+          </a>
+          <div class="portfolio-caption">
+          <h4>GoSafe</h4>
+          <p class="text-muted">February 18'</p>
+          </div>
+        </div>                                                      
+        </article> 
 
 			  <article class="col-md-4 isotopeItem hobby">
   			<div class=" portfolio-item">
@@ -454,7 +454,7 @@
   			  </a>
   			  <div class="portfolio-caption">
   				<h4>Hobby Robotics</h4>
-  				<p class="text-muted">August 13' to Present</p>
+  				<p class="text-muted">August 13' - June 17'</p>
   			  </div>
   			</div>																											
   		  </article>
@@ -854,7 +854,7 @@
 			<p class="item-intro text-muted">Computer Science and Engineering, IIT Kharagpur</p>
 			<center><img class="img-responsive img-centered" src="img/page.png" ></center>
 			<br><br>
-			<p>Developed an online teaching website which had provisions for students to take different courses, teachers to post notes, assignments and quizzes and even assess them. The database used was MongoDB (with Mongoose ODM). The front-end of the website used HTML, CSS, JavaScript, AngularJS. The integration of the front-end with the database was done using ExpressJS.</p>
+			<p>Developed an online teaching website which had provisions for students to take different courses, teachers to post notes, assignments and quizzes and even assess them. The database used was MongoDB (with Mongoose ODM). The front-end of the website used HTML, CSS, JavaScript, AngularJS. ExpressJS was used to create the API layer over the database.</p>
             <p><center>Guide : Prof. <a href="http://cse.iitkgp.ac.in/~pabitra/"><i>Pabitra Mitra</i></a>, Computer Science and Engineering, IIT Kharagpur</center></p>
             <p><strong>Report</strong>: <a href="data/web.pdf"><i>Online Teaching Website</i></a></p>
 			<ul class="list-inline">
@@ -1114,17 +1114,19 @@
 		<div class="col-lg-8 col-lg-offset-2">
 		  <div class="modal-body">
 			<!-- Project Details Go Here -->
-			<h2>Marauders' Map</h2>
-			<p class="item-intro text-muted">Technology Robotix Society</p>
-			<center><img class="img-responsive img-centered" src="img/prongs.jpg" alt="Marauders Map Evaluator"></center>
+			<h2>GoSafe</h2>
+			<p class="item-intro text-muted"></p>
+			<center><iframe width="560" height="315" src="https://www.youtube.com/embed/CSS3H5kNgIk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
 
-			<p>Marauder's Map was an online coding event for Robotix 2013 held during Kshitij 13' at IIT Kharagpur. The event was based on modified version of travelling salesman problem.</p>
-			<p>I designed the problem statement along with automatic evaluator for the event. I also made the test cases and tutorial to help participants solve the problem statement.  </p>
-			<strong>Report</strong>: <i>Problem Statement of Marauders' Map</i>(<a href="data/marauder.pdf">Link</a>)
+			<p>GoSafe is an android application designed keeping in mind the safety of women. </p>
+			<p>Suggests safe route to travel and halt:  Every time a user wants to go one from place to another, GoSafe shows the user two paths - the route suggested by Google Maps API which is the fastest route to reach the destination, and the safest route computed by our safety algorithm. The safety route is computed by calculating the safety index of all possible routes to reach the destination from a certain point and then returning the route with the highest safety index.</p>
+      <p>Helps user to decide safe place to stay or visit: We parse data from local newspapers using Natural Language Processing to obtain information about Theft, Harassment, Accidents, not well Illuminated Roads, CCTV Cameras, presence of Police. All six parameters are available in the form of markers in the app.</p>
+      <p>Allows users to share how safe they feel in area.</p>
+			<strong>Report</strong>: <a href="data/GoSafe.pdf"><i>GoSafe</i></a>
 
 			<ul class="list-inline">
-			  <li><a href="https://web.archive.org/web/20130116005642/http://robotix.in/events/event/The_Marauders_Map">Web-Link</a></li>
 			  <li>January 13'</li>
+        <li><a href="https://github.com/VaishaliJain/GoSafe">Github</a></li>
 			</ul>
 			<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
 		  </div>
